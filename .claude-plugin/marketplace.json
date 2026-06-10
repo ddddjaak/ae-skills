@@ -1,14 +1,14 @@
 {
-  "name": "addy-agent-skills",
+  "name": "ddddjaak-ae-skills",
   "owner": {
-    "name": "Addy Osmani"
+    "name": "ddddjaak"
   },
   "metadata": {
-    "description": "Production-grade engineering skills for AI coding agents — covering the full software development lifecycle from spec to ship."
+    "description": "Production-grade engineering skills for AE chip vendor engineers — covering the full software development lifecycle from spec to ship."
   },
   "plugins": [
     {
-      "name": "agent-skills",
+      "name": "ae-skills",
       "source": "./",
       "description": "Production-grade engineering skills covering every phase of software development: spec, plan, build, verify, review, and ship."
     }

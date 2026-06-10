@@ -1,11 +1,11 @@
 {
-  "name": "agent-skills",
-  "description": "Production-grade engineering skills for AI coding agents — covering the full software development lifecycle from spec to ship.",
+  "name": "ae-skills",
+  "description": "Production-grade engineering skills for AE chip vendor engineers — covering the full software development lifecycle from spec to ship.",
   "author": {
-    "name": "Addy Osmani"
+    "name": "ddddjaak"
   },
-  "homepage": "https://github.com/addyosmani/agent-skills",
-  "repository": "https://github.com/addyosmani/agent-skills",
+  "homepage": "https://github.com/ddddjaak/ae-skills",
+  "repository": "https://github.com/ddddjaak/ae-skills",
   "license": "MIT",
   "commands": "./.claude/commands",
   "skills": "./skills",

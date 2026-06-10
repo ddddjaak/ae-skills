@@ -1,6 +1,6 @@
-# agent-skills
+# ae-skills
 
-This is the agent-skills project — a collection of production-grade engineering skills for AI coding agents.
+This is the ae-skills project — a collection of production-grade engineering skills for AE chip vendor engineers.
 
 ## Project Structure
 

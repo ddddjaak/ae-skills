@@ -25,12 +25,12 @@ if (hasJq) {
     throw new Error(`expected IMPORTANT priority, got ${payload.priority}`);
   }
 
-  if (!payload.message.includes('agent-skills loaded.')) {
+  if (!payload.message.includes('ae-skills loaded.')) {
     throw new Error('message is missing startup preface');
   }
 
   if (!payload.message.includes('# Using Agent Skills')) {
-    throw new Error('message is missing using-agent-skills content');
+    throw new Error('message is missing using-ae-skills content');
   }
 } else {
   if (payload.priority !== 'INFO') {

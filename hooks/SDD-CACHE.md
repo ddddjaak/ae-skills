@@ -44,7 +44,7 @@ This hook caches fetched content on disk, but **revalidates with the origin serv
 }
 ```
 
-   `${CLAUDE_PROJECT_DIR}` resolves to the directory you launched Claude Code from. The snippet above works when the hooks live inside the same project. If you installed `agent-skills` elsewhere (e.g. as a shared plugin under `~/agent-skills`), replace `${CLAUDE_PROJECT_DIR}/hooks/...` with the absolute path to each script.
+   `${CLAUDE_PROJECT_DIR}` resolves to the directory you launched Claude Code from. The snippet above works when the hooks live inside the same project. If you installed `ae-skills` elsewhere (e.g. as a shared plugin under `~/ae-skills`), replace `${CLAUDE_PROJECT_DIR}/hooks/...` with the absolute path to each script.
 
 2. Make sure `.claude/sdd-cache/` is in your `.gitignore` (already included in this repo).
 

@@ -1,4 +1,4 @@
-# Using agent-skills with GitHub Copilot
+# Using ae-skills with GitHub Copilot
 
 ## Setup
 
@@ -10,15 +10,15 @@ Copilot supports creating agent skills using a `.github/skills`, `.claude/skills
 mkdir -p .github
 
 # Create files for essential skills
-cat /path/to/agent-skills/skills/test-driven-development/SKILL.md > .github/skills/test-driven-development/SKILL.md
-cat /path/to/agent-skills/skills/code-review-and-quality/SKILL.md > .github/skills/code-review-and-quality/SKILL.md
+cat /path/to/ae-skills/skills/test-driven-development/SKILL.md > .github/skills/test-driven-development/SKILL.md
+cat /path/to/ae-skills/skills/code-review-and-quality/SKILL.md > .github/skills/code-review-and-quality/SKILL.md
 ```
 
 For more details, refer [Creating agent skills for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-skills).
 
 ### Agent Personas (*.agent.md)
 
-Copilot supports specialized agent personas. Use the agent-skills agents:
+Copilot supports specialized agent personas. Use the ae-skills agents:
 
 > **Important:** GitHub Copilot requires custom agent files to be named `*.agent.md`.
 > Files named `*.md` are silently ignored by Copilot.
@@ -27,9 +27,9 @@ Copilot supports specialized agent personas. Use the agent-skills agents:
 ```bash
 # Create the agents directory and copy agent definitions
 mkdir -p .github/agents
-cp /path/to/agent-skills/agents/code-reviewer.md .github/agents/code-reviewer.agent.md
-cp /path/to/agent-skills/agents/test-engineer.md .github/agents/test-engineer.agent.md
-cp /path/to/agent-skills/agents/security-auditor.md .github/agents/security-auditor.agent.md
+cp /path/to/ae-skills/agents/code-reviewer.md .github/agents/code-reviewer.agent.md
+cp /path/to/ae-skills/agents/test-engineer.md .github/agents/test-engineer.agent.md
+cp /path/to/ae-skills/agents/security-auditor.md .github/agents/security-auditor.agent.md
 ```
 
 Invoke agents in Copilot Chat:
